@@ -49,6 +49,7 @@ project_details.forEach((project) => {
 
   let nameDiv = document.createElement("div");
   nameDiv.innerText = project.project_name;
+  nameDiv.style.color = "var(--skin-color)";
   let projectDetails = document.createElement("div");
   projectDetails.innerHTML = `<p>${project.details}</p><p>Tech Stack : ${project.tech_stack}</p><p>Database : ${project.data_base}</p>`;
   let buttonsDiv = document.createElement("div");
