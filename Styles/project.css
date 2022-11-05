@@ -7,7 +7,7 @@
 }
 body.dark {
   --bg-black-900: #151515;
-  --bg-black-100: #0F0F0F;
+  --bg-black-100: #0f0f0f;
   --bg-black-50: #393939;
   --text-black-900: #ffffff;
   --bg-black-700: #ffffff;
@@ -48,7 +48,7 @@ ul {
   overflow-y: auto;
   overflow-x: hidden;
   transition: all 0.3s ease;
-  color: var(--text-black-900)
+  color: var(--text-black-900);
 }
 .section.back-section {
   z-index: 1;
@@ -70,27 +70,26 @@ ul {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
 #projects_div {
   width: 80%;
   display: flex;
   flex-direction: column;
   color: var(--text-black-900);
 }
+.about_the_section {
+  margin-left: 1%;
+}
 .main {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* gap: 20px;  */
+  width: 100%;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin: 50px;
-  color: var(--text-black-900)
+  margin-bottom: 15%;
+  color: var(--text-black-900);
 }
 .picture {
   width: 100%;
-  /* padding: 20px; */
-  /* border: 1px solid black;  */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,15 +125,18 @@ ul {
   letter-spacing: 2px;
 }
 .project_description > div:first-child {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: bolder;
   margin-bottom: 20px;
 }
 .project_description > div:nth-child(2) {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 50px;
   line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .project_description > div:nth-child(3) {
   width: 70%;
@@ -144,12 +146,17 @@ ul {
 }
 .project_description > div:nth-child(3) > button {
   padding: 10px 20px;
-  background-color: #facf0f;
+  color: var(--text-black-900);
+  background-color: var(--skin-color);
   border: none;
   text-align: center;
   font-size: 17px;
   font-weight: 600;
   border-radius: 10px;
+}
+.project_description > div:nth-child(3) > button:hover {
+  color: white;
+  background-color: limegreen;
 }
 
 @media all and (min-width: 600px) and (max-width: 1024px) {
