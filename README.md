@@ -141,7 +141,7 @@
 
 
 <details>
-   <summary><b>:rocket: &nbsp;Github stats Detailed</b></summary>
+   <summary><b> 😅 Github stats Detailed</b></summary>
    </br>
   
 <table><tr><td><img height="154em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abhishek-0713&theme=2077"/></td><td>
