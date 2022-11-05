@@ -78,7 +78,7 @@ ul {
 .LOGO > i {
   font-size: 1.4rem;
   font-family: cursive;
-  margin-left: -300%;
+  margin-left: -270%;
   color: var(--skin-color);
 }
 .controls {
@@ -725,6 +725,12 @@ textarea.form-control {
 /* //////////////////////////////////////           Media Query / Responsiveness           ////////////////////////////////////////////// */
 
 @media screen and (max-width: 1326px) {
+  .LOGO > i {
+    font-size: 1.4rem;
+    font-family: cursive;
+    margin-left: -220%;
+    color: var(--skin-color);
+  }
   .info-project-h4 {
     margin: auto;
     max-width: 85%;
@@ -737,7 +743,15 @@ textarea.form-control {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
   @media screen and (max-width: 1280px) {
+   
+    .LOGO > i {
+      font-size: 1.4rem;
+      font-family: cursive;
+      margin-left: -200%;
+      color: var(--skin-color);
+    }
     .info-project-h4 {
       margin: auto;
       max-width: 85%;
@@ -752,6 +766,12 @@ textarea.form-control {
     }
   }
   @media screen and (max-width: 1199px) {
+    .LOGO > i {
+      font-size: 1.4rem;
+      font-family: cursive;
+      margin-left: -150%;
+      color: var(--skin-color);
+    }
     .section {
       left: 0;
     }
@@ -763,6 +783,9 @@ textarea.form-control {
       margin-left: 0;
     }
   }
+
+  /* //////////////////////////////////////        Large Size   Media Query / Responsiveness           ////////////////////////////////////////////// */
+
   @media screen and (max-width: 991px) {
     .LOGO > i {
       margin-left: 0;
@@ -834,7 +857,7 @@ textarea.form-control {
       width: 100%;
       margin-top: -40%;
     }
-    .home-img::after {
+    /* .home-img::after {
       display: none;
       content: "";
       position: absolute;
@@ -855,7 +878,7 @@ textarea.form-control {
       border-left: 5px solid var(--skin-color);
       left: 191px;
       top: 17px;
-    }
+    } */
 
     .info-project-h4 {
       margin: auto;
@@ -892,6 +915,8 @@ textarea.form-control {
       max-width: 10%;
     }
   }
+
+  /* //////////////////////////////////////        Midium Size   Media Query / Responsiveness           ////////////////////////////////////////////// */
 
   @media screen and (max-width: 768px) {
     .LOGO > i {
@@ -984,20 +1009,39 @@ textarea.form-control {
       text-align: center;
     }
   }
-  @media screen and (max-width: 441px) {
-    .controls {
-      top: auto;
-      bottom: 0;
-      flex-direction: row;
-      justify-content: center;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      background-color: var(--color-grey-5);
-    }
-    .controls .control {
-      margin: 1rem 0.3rem;
-    }
+
+  /* //////////////////////////////////////        Small Size   Media Query / Responsiveness           ////////////////////////////////////////////// */
+
+  @media screen and (max-width: 480px) {
+
+ .controls {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 100%;
+  height: 50px;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 0%;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-black-50);
+  background-color: var(--bg-black-700);
+}
+.control div{
+  gap: 0px;
+}
+.controls .control {
+  width: 17%;
+  height: 40px;
+}
+
+ .controls .control i {
+  font-size: 12px;
+}
+
 
     .info-project-h4 {
       margin: auto;
