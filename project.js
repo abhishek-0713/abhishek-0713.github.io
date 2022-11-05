@@ -40,7 +40,7 @@ let project_details = [
     tech_stack: "HTML | CSS | JavaScript | github",
     data_base: "local storage",
     banner:
-      "https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
+      "https://github.com/rahulbnc463/Team_DNA/raw/main/readme_docs/1.png",
     deployed: "https://cerulean-nasturtium-c2ac46.netlify.app/",
     gitlink: "https://github.com/rahulbnc463/Team_DNA",
   },
