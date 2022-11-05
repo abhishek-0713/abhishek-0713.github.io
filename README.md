@@ -120,13 +120,14 @@
 <a href="https://auth.geeksforgeeks.org/user/coder_abhi0713" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="coder_abhi0713" height="30" width="40" /></a>
 </p>
 
-<div align='center'>
+<details>
+   <summary><b>:rocket: &nbsp;Fun Fact</b></summary>
+   </br>
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=default)
 
-</div>
+</details>
 
-</div>
 <!-- -------------------------------------------------------------   Trophy and Stats  ------------------------------------------------------------------------- -->
 
 ## Trophy & Stats :
@@ -140,7 +141,7 @@
 
 
 <details>
-   <summary><b>:rocket: &nbsp;Github stats Detailed</b></summary>
+   <summary><b> 😅 Github stats Detailed</b></summary>
    </br>
   
 <table><tr><td><img height="154em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abhishek-0713&theme=2077"/></td><td>
