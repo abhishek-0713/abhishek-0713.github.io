@@ -153,6 +153,7 @@ ul {
   font-size: 17px;
   font-weight: 600;
   border-radius: 10px;
+  cursor: pointer;
 }
 .project_description > div:nth-child(3) > button:hover {
   color: white;
