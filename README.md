@@ -17,6 +17,10 @@
 ##
 <p> Dark Mode | Green Theme </p>
 
-![image](image.png)
+![image](https://user-images.githubusercontent.com/105943862/200171481-4eb52b75-627b-4983-b899-ed49a63342f9.png)
 
 
+##
+<p> Dark Mode | Teal Theme </p>
+
+![image](https://user-images.githubusercontent.com/105943862/200171448-20181546-5e69-4ea0-87e8-79b6c9eebeb1.png)
