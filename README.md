@@ -12,3 +12,11 @@
 <p> Dark Mode | Orange Theme </p>
 
 ![image](https://user-images.githubusercontent.com/105943862/198294139-bd907c77-5ad9-414b-baf5-716a304be425.png)
+
+
+##
+<p> Dark Mode | Green Theme </p>
+
+![image](image.png)
+
+
