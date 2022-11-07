@@ -8,7 +8,7 @@
 }
 body.dark {
   --bg-black-900: #151515;
-  --bg-black-100: #0F0F0F;
+  --bg-black-100: #0f0f0f;
   --bg-black-50: #393939;
   --text-black-900: #ffffff;
   --bg-black-700: #ffffff;
@@ -745,7 +745,6 @@ textarea.form-control {
   }
 
   @media screen and (max-width: 1280px) {
-   
     .LOGO > i {
       font-size: 1.4rem;
       font-family: cursive;
@@ -800,7 +799,7 @@ textarea.form-control {
     .controls {
       position: fixed;
       z-index: 10;
-      top: 45%;
+      top: 40%;
       width: 10%;
       right: 0;
       display: flex;
@@ -855,30 +854,8 @@ textarea.form-control {
 
     .home-info {
       width: 100%;
-      margin-top: -40%;
+      margin-top: -50%;
     }
-    /* .home-img::after {
-      display: none;
-      content: "";
-      position: absolute;
-      height: 40px;
-      width: 40px;
-      border-bottom: 5px solid var(--skin-color);
-      border-right: 5px solid var(--skin-color);
-      right: 191px;
-      bottom: -28px;
-    }
-    .home-img::before {
-      display: none;
-      content: "";
-      position: absolute;
-      height: 40px;
-      width: 40px;
-      border-top: 5px solid var(--skin-color);
-      border-left: 5px solid var(--skin-color);
-      left: 191px;
-      top: 17px;
-    } */
 
     .info-project-h4 {
       margin: auto;
@@ -933,9 +910,9 @@ textarea.form-control {
       position: fixed;
       z-index: 10;
       width: 100%;
-      top: 100%;
+      top: 0%;
       height: 50px;
-      bottom: 0%;
+      bottom: 90%;
       left: 0%;
       display: flex;
       flex-direction: row;
@@ -971,13 +948,6 @@ textarea.form-control {
     .intr {
       width: 100%;
     }
-    /* .home-img {
-      display: none;
-    } */
-
-
-
-
     .home-img img {
       height: 240px;
       text-align: center;
@@ -987,10 +957,9 @@ textarea.form-control {
       border: 2px solid var(--skin-color);
     }
     .home-img {
-  
       left: 0%;
-      right: 50%;
-      top: -50;
+      right: 100%;
+      top: 0;
       position: relative;
     }
     .intr {
@@ -998,24 +967,6 @@ textarea.form-control {
       display: flex;
       flex-direction: column-reverse;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .contact .contact-form .col-6,
     .contact .contact-item-info,
@@ -1055,35 +1006,47 @@ textarea.form-control {
   /* //////////////////////////////////////        Small Size   Media Query / Responsiveness           ////////////////////////////////////////////// */
 
   @media screen and (max-width: 480px) {
+    .controls {
+      position: fixed;
+      z-index: 10;
+      width: 100%;
+      top: 0%;
+      height: 50px;
+      bottom: 90%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      gap: 0%;
+      align-items: center;
+      justify-content: center;
+      color: var(--bg-black-50);
+      background-color: var(--bg-black-700);
+    }
+    .control div {
+      gap: 0px;
+    }
+    .controls .control {
+      width: 17%;
+      height: 40px;
+    }
 
- .controls {
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  top: 100%;
-  height: 50px;
-  bottom: 0%;
-  left: 0%;
-  display: flex;
-  flex-direction: row;
-  gap: 0%;
-  align-items: center;
-  justify-content: center;
-  color: var(--bg-black-50);
-  background-color: var(--bg-black-700);
-}
-.control div{
-  gap: 0px;
-}
-.controls .control {
-  width: 17%;
-  height: 40px;
-}
-
- .controls .control i {
-  font-size: 12px;
-}
-
+    .controls .control i {
+      font-size: 12px;
+    }
+    .home-img img {
+      height: 240px;
+      text-align: center;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      border: 2px solid var(--skin-color);
+    }
+    .home-img {
+      left: 0%;
+      right: 100%;
+      top: 0;
+      position: relative;
+    }
 
     .info-project-h4 {
       margin: auto;
