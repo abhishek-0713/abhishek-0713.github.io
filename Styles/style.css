@@ -971,9 +971,51 @@ textarea.form-control {
     .intr {
       width: 100%;
     }
-    .home-img {
+    /* .home-img {
       display: none;
+    } */
+
+
+
+
+    .home-img img {
+      height: 240px;
+      text-align: center;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      border: 2px solid var(--skin-color);
     }
+    .home-img {
+  
+      left: 0%;
+      right: 50%;
+      top: -50;
+      position: relative;
+    }
+    .intr {
+      width: 70%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .contact .contact-form .col-6,
     .contact .contact-item-info,
