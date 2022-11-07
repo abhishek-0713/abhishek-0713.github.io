@@ -24,3 +24,8 @@
 <p> Dark Mode | Teal Theme </p>
 
 ![image](https://user-images.githubusercontent.com/105943862/200171448-20181546-5e69-4ea0-87e8-79b6c9eebeb1.png)
+
+##
+<p> About Me </p>
+
+![image](https://user-images.githubusercontent.com/105943862/200362345-f9756145-612b-4fae-b5b2-475750b9c47e.png)
