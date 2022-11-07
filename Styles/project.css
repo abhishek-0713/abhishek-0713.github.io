@@ -69,7 +69,10 @@ ul {
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
+#project {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
 #projects_div {
   width: 80%;
   display: flex;
@@ -77,7 +80,7 @@ ul {
   color: var(--text-black-900);
 }
 .about_the_section {
-  margin-left: 1%;
+  margin-left: 2%;
 }
 .main {
   width: 100%;
@@ -188,6 +191,12 @@ ul {
 }
 
 @media all and (min-width: 0px) and (max-width: 599px) {
+  #project {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    margin-right: 7%;
+  }
   .main {
     display: flex;
     flex-direction: column;
@@ -195,6 +204,7 @@ ul {
   }
   #projects_div {
     width: 100%;
+    margin: auto;
   }
   .picture {
     width: 100%;
