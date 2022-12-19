@@ -34,15 +34,15 @@ let project_details = [
     gitlink: "https://github.com/abhishek-0713/Student-Management-System-Oops",
   },
   {
-    project_name: "DNAIndia.com Clone",
+    project_name: "Learning Hub - Course Monitoring System",
     details:
-      "Clone of a news website DNA India which provides news related to India, sports, lifestyle, the world, and many more.Developed project in 5 days during the construct week.",
-    tech_stack: "HTML | CSS | JavaScript | github",
-    data_base: "local storage",
+      "A Java console-based individual project mainly focusing on the Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course plan .",
+    tech_stack: "Core Java | MySql | Hibernate | JDBC | github",
+    data_base: "MYSQL",
     banner:
-      "https://github.com/rahulbnc463/Team_DNA/raw/main/readme_docs/1.png",
-    deployed: "https://cerulean-nasturtium-c2ac46.netlify.app/",
-    gitlink: "https://github.com/rahulbnc463/Team_DNA",
+      "https://user-images.githubusercontent.com/105943862/206138233-7fa501d5-af8b-4916-a94f-a4f1b75d6c4d.png",
+    deployed: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
   },
 ];
 
