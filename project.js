@@ -1,5 +1,30 @@
 let project_details = [
   {
+    project_name: "Learning Hub - Course Monitoring System",
+    details:
+      "A Java console-based individual project mainly focusing on the Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course plan .",
+    tech_stack: "Core Java | MySql | Hibernate | JDBC | github",
+    data_base: "MYSQL",
+    banner:
+      "https://user-images.githubusercontent.com/105943862/208404419-08161b2c-5f41-4b6b-bd96-6bb0c7373eb5.png",
+    deployed: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
+  },
+
+  {
+    project_name: "MyWallet - Payment Wallet Application",
+    details:
+      "Payment Wallet Application in Java using Spring Boot with Source Code. This is restful service for the payment wallet application with all neccessary API. This project is developed to allow customers to make payments using wallets while making any purchase.",
+    tech_stack:
+      "Java | Spring Boot | Swagger | Lombok | Spring Security | github",
+    data_base: "MYSQL",
+    banner:
+      "https://user-images.githubusercontent.com/105943862/208405349-4831d5d5-e049-45e7-a989-ba2babb0d9a6.png",
+    deployed: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
+  },
+
+  {
     project_name: "Zappos.com Clone",
     details:
       "Zappos is an E-commerce website, where you can buy clothing, handbags,accessories, and more. It is a Collaborative project made in 5 days. My task was to build the Hotels list page and provide different functionalities like sorting and filtering.",
@@ -32,17 +57,6 @@ let project_details = [
       "https://user-images.githubusercontent.com/105943862/200131083-803dbb4a-fd82-4087-bcab-e5a2e9eb398e.png",
     deployed: "https://visionary-granita-4e517a.netlify.app/",
     gitlink: "https://github.com/abhishek-0713/Student-Management-System-Oops",
-  },
-  {
-    project_name: "DNAIndia.com Clone",
-    details:
-      "Clone of a news website DNA India which provides news related to India, sports, lifestyle, the world, and many more.Developed project in 5 days during the construct week.",
-    tech_stack: "HTML | CSS | JavaScript | github",
-    data_base: "local storage",
-    banner:
-      "https://github.com/rahulbnc463/Team_DNA/raw/main/readme_docs/1.png",
-    deployed: "https://cerulean-nasturtium-c2ac46.netlify.app/",
-    gitlink: "https://github.com/rahulbnc463/Team_DNA",
   },
 ];
 
