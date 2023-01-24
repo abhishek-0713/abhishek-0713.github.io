@@ -194,19 +194,23 @@ ul {
 } */
 .home-info {
   width: 60%;
+   text-align: center;
 }
 h3.hello {
   margin: 15px 0;
   font-size: 48px;
+   text-align: center;
 }
 .name {
   color: var(--skin-color);
+   text-align: center;
 }
 
 .home-info p {
   margin-bottom: 70px;
   font-size: 24px;
   color: var(--text-black-900);
+   text-align: center;
 }
 .btn {
   font-size: 15px;
