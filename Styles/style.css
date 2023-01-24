@@ -801,9 +801,11 @@ textarea.form-control {
     }
     h3.hello {
       font-size: 38px;
+      text-align: center;
     }
     .home-info p {
       font-size: 21px;
+      text-align: center;
     }
     #home {
       margin-top: -50%;
@@ -867,6 +869,7 @@ textarea.form-control {
     .home-info {
       width: 100%;
       margin-top: -50%;
+      text-align: center;
     }
 
     .info-project-h4 {
@@ -917,9 +920,11 @@ textarea.form-control {
     }
     h3.hello {
       font-size: 28px;
+      text-align: center;
     }
     .home-info p {
       font-size: 20px;
+      text-align: center;
     }
     .controls {
       position: fixed;
@@ -962,6 +967,7 @@ textarea.form-control {
     .home-info {
       width: 100%;
       margin-top: 0%;
+      text-align: center;
     }
     .intr {
       width: 100%;
