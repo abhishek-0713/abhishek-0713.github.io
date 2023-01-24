@@ -38,17 +38,19 @@ ul {
   width: 100%;
   background-color: var(--bg-black-900);
   min-height: 100vh;
-  display: block;
+  /* display: block; */
   padding: 0 30px;
   opacity: 1;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
-  right: 0;
+  /* right: 0;
   bottom: 0;
   z-index: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
+  display: flex;
+  flex-direction: column;
 }
 .section.back-section {
   z-index: 1;
@@ -110,7 +112,10 @@ ul {
 .control:hover {
   background-color: var(--skin-color);
 }
-.controls .control i {
+.control a {
+  color: var(--color-grey-2);
+}
+.controls .control a i {
   font-size: 1.4rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -120,10 +125,10 @@ ul {
   transition: all 0.4s ease-in-out;
 }
 
-.controls .active-btn i {
+.controls .active-btn a i {
   color: var(--text-black-900);
 }
-.control > i {
+.control > a > i {
   font-family: cursive;
 }
 .fa-envelope-open {
@@ -151,7 +156,7 @@ ul {
 #home {
   width: 100%;
   margin: auto;
-  margin-top: -1%;
+  margin-top: 10%;
   color: var(--text-black-900);
   display: flex;
   min-height: 100vh;
@@ -796,6 +801,9 @@ textarea.form-control {
     .home-info p {
       font-size: 21px;
     }
+    #home {
+      margin-top: -50%;
+    }
     .controls {
       position: fixed;
       z-index: 10;
@@ -900,6 +908,9 @@ textarea.form-control {
       margin-left: 0;
       display: none;
     }
+    #home {
+      margin-top: 10%;
+    }
     h3.hello {
       font-size: 28px;
     }
@@ -908,12 +919,14 @@ textarea.form-control {
     }
     .controls {
       position: fixed;
-      z-index: 10;
+      z-index: 4;
       width: 100%;
       top: 0%;
       height: 50px;
       bottom: 90%;
       left: 0%;
+      gap: 0;
+      padding: 0;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -921,13 +934,14 @@ textarea.form-control {
       color: var(--bg-black-50);
       background-color: var(--bg-black-700);
     }
+
     .controls .control {
       height: 50px;
     }
     .control:hover {
       background-color: var(--skin-color);
     }
-    .controls .control i {
+    .controls .control a i {
       font-size: 0.8rem;
     }
     .controls .active-btn {
@@ -935,7 +949,7 @@ textarea.form-control {
       transition: all 0.4s ease-in-out;
     }
     .section-title h2 {
-      font-size: 28px;
+      font-size: 20px;
     }
     .container {
       width: 100%;
@@ -1016,7 +1030,7 @@ textarea.form-control {
       left: 0%;
       display: flex;
       flex-direction: row;
-      gap: 0%;
+      /* gap: 0.5%; */
       align-items: center;
       justify-content: center;
       color: var(--bg-black-50);
@@ -1031,7 +1045,7 @@ textarea.form-control {
     }
 
     .controls .control i {
-      font-size: 12px;
+      font-size: 2px;
     }
     .home-img img {
       height: 240px;
