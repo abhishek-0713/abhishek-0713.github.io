@@ -22,7 +22,6 @@ body {
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: cursive;
 }
 
 ::before,
@@ -33,49 +32,15 @@ body {
 ul {
   list-style: none;
 }
-.section {
-  width: 100%;
-  background-color: var(--bg-black-900);
-  min-height: 100vh;
-  display: block;
-  padding: 0 30px;
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transition: all 0.3s ease;
-  color: var(--text-black-900);
-}
-.section.back-section {
-  z-index: 1;
-}
-.section.active {
-  z-index: 2;
-  opacity: 1;
-  animation: slideSection 1s ease;
-}
-
-@keyframes slideSection {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 #project {
-  margin-top: 5%;
   margin-bottom: 10%;
 }
 #projects_div {
   width: 80%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   color: var(--text-black-900);
 }
@@ -87,8 +52,8 @@ ul {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin-bottom: 15%;
+  gap: 10%;
+  margin-bottom: 2%;
   color: var(--text-black-900);
 }
 .picture {
@@ -175,6 +140,7 @@ ul {
   }
   .project_description > div:first-child {
     text-align: center;
+    margin-top: 5%;
   }
   .project_description > div:nth-child(2) {
     align-items: center;
@@ -195,16 +161,18 @@ ul {
     width: 100%;
     margin: auto;
     margin-top: 10%;
-    margin-right: 7%;
+    margin-right: 10%;
   }
   .main {
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin: 30px;
   }
   #projects_div {
     width: 100%;
     margin: auto;
+    align-items: center;
   }
   .picture {
     width: 100%;
