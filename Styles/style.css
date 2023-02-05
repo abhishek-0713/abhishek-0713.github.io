@@ -812,7 +812,7 @@ textarea.form-control {
   }
 
   h3.hello {
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
   }
   .name {
@@ -999,4 +999,60 @@ textarea.form-control {
     margin: auto;
     text-align: center;
   }
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.display-1 {
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 0.2;
+}
+
+@media (max-width: 1200px) {
+  .display-1 {
+    font-size: calc(2rem + 8.5vw);
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.position-absolute {
+  font-weight: 900;
+  position: absolute !important;
+}
+
+.text-primary {
+  color: var(--skin-color) !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: var(--skin-color) !important;
 }
