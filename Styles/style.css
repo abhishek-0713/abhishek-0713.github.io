@@ -40,6 +40,16 @@ ul {
   padding: 5px;
 }
 
+/* .main-content:nth-child(1) {
+  width: 100%;
+  background: url(../components/download.png)
+    no-repeat 0px 204px scroll #fbfbfb;
+  border-bottom: 1px solid #ca3939;
+  background-position: center bottom;
+  padding: 0px 0px;
+  position: relative;
+} */
+
 .main-content:nth-child(2) {
   width: 100%;
   background-color: f6f6f6;
@@ -999,6 +1009,24 @@ textarea.form-control {
     margin: auto;
     text-align: center;
   }
+}
+
+
+@media screen and (max-width: 600px) {
+  #skills {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tech {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 .position-relative {
