@@ -35,7 +35,23 @@ hamBurger.addEventListener("click", function () {
   document.querySelector(".navbar").classList.toggle("show");
 });
 
-document.querySelectorAll(".cv-btn").onclick = function () {
+document.querySelector(".cv-btn").onclick = function () {
+  var redirectWindow = window.open(
+    "./components/abhishek-walke-resume.pdf",
+    "_blank"
+  );
+  redirectWindow.location;
+};
+
+document.querySelector(".cv-btn1").onclick = function () {
+  var redirectWindow = window.open(
+    "./components/abhishek-walke-resume.pdf",
+    "_blank"
+  );
+  redirectWindow.location;
+};
+
+document.querySelector(".cv-btn2").onclick = function () {
   var redirectWindow = window.open(
     "./components/abhishek-walke-resume.pdf",
     "_blank"
