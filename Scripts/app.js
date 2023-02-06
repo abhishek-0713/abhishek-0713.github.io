@@ -35,7 +35,7 @@ hamBurger.addEventListener("click", function () {
   document.querySelector(".navbar").classList.toggle("show");
 });
 
-document.querySelector(".cv-btn").onclick = function () {
+document.querySelectorAll(".cv-btn").onclick = function () {
   var redirectWindow = window.open(
     "./components/abhishek-walke-resume.pdf",
     "_blank"
