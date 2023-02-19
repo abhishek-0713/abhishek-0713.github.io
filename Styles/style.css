@@ -286,9 +286,12 @@ h3.hello {
 }
 
 .about-text p {
+  width: 70%;
+  margin: auto;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
+  margin-bottom: 3%;
   color: var(--text-black-900);
 }
 
