@@ -7,7 +7,7 @@ let project_details = [
     data_base: "MYSQL",
     banner:
       "https://user-images.githubusercontent.com/105943862/208404419-08161b2c-5f41-4b6b-bd96-6bb0c7373eb5.png",
-    deployed: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
     gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
   },
 
@@ -20,7 +20,7 @@ let project_details = [
     data_base: "MYSQL",
     banner:
       "https://user-images.githubusercontent.com/105943862/208405349-4831d5d5-e049-45e7-a989-ba2babb0d9a6.png",
-    deployed: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
     gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
   },
 
