@@ -21,7 +21,7 @@ let project_details = [
     banner:
       "https://user-images.githubusercontent.com/105943862/208405349-4831d5d5-e049-45e7-a989-ba2babb0d9a6.png",
     deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
-    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
+    gitlink: "https://github.com/abhishek-0713/MyWallet",
   },
 
   {
@@ -48,7 +48,7 @@ let project_details = [
     gitlink: "https://github.com/rahulbnc463/Team_DNA",
   },
   {
-    project_name: "STUDENT MANAGEMENT SYSTEM - OOPS",
+    project_name: "LEARNING MANAGEMENT SYSTEM - LMS",
     details:
       "This is a Solo Project based on Concept of Oops - STUDENT MANAGEMENT SYSTEM. There will be two kinds of users student, admin. login and signup functionality for both kind of user. Admin have special access.",
     tech_stack: "Oops | HTML | CSS | JavaScript | github",
@@ -56,7 +56,7 @@ let project_details = [
     banner:
       "https://user-images.githubusercontent.com/105943862/200131083-803dbb4a-fd82-4087-bcab-e5a2e9eb398e.png",
     deployed: "https://visionary-granita-4e517a.netlify.app/",
-    gitlink: "https://github.com/abhishek-0713/Student-Management-System-Oops",
+    gitlink: "https://github.com/abhishek-0713/Learning-Management-System-LMS",
   },
 ];
 
