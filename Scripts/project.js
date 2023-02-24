@@ -1,14 +1,16 @@
 let project_details = [
+
   {
-    project_name: "Learning Hub - Course Monitoring System",
+    project_name: "Kapsi - Online Cab Booking Application",
     details:
-      "A Java console-based individual project mainly focusing on the Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course plan .",
-    tech_stack: "Core Java | MySql | Hibernate | JDBC | github",
+      "Kapsi is an Online Cab Booking Application using Advance Java and Spring Boot. It's a REST API for booking a cab online for the trip, scheduling a trip, giving ratings to drivers, and many more such operations.",
+    tech_stack:
+      "Java | Spring | JSP | SQL | Multithreading | JDBC | Swagger",
     data_base: "MYSQL",
     banner:
-      "https://user-images.githubusercontent.com/105943862/208404419-08161b2c-5f41-4b6b-bd96-6bb0c7373eb5.png",
-    deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
-    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
+      "https://user-images.githubusercontent.com/105943862/213908651-77262461-1c3e-4b85-8622-0aa71f285354.png",
+    deployed: "https://drive.google.com/file/d/1YqotBMqhg3jO94i_1K2wCb7P7gH4KR3I/view?usp=sharing",
+    gitlink: "https://github.com/abhishek-0713/Kapsi",
   },
 
   {
@@ -22,6 +24,18 @@ let project_details = [
       "https://user-images.githubusercontent.com/105943862/208405349-4831d5d5-e049-45e7-a989-ba2babb0d9a6.png",
     deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
     gitlink: "https://github.com/abhishek-0713/MyWallet",
+  },
+  
+  {
+    project_name: "Learning Hub - Course Monitoring System",
+    details:
+      "A Java console-based individual project mainly focusing on the Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course plan .",
+    tech_stack: "Core Java | MySql | Hibernate | JDBC | github",
+    data_base: "MYSQL",
+    banner:
+      "https://user-images.githubusercontent.com/105943862/208404419-08161b2c-5f41-4b6b-bd96-6bb0c7373eb5.png",
+    deployed: "https://drive.google.com/file/d/1saLfU_G8BVNPWSjjBUcSpR9GBoeFcPJU/view?usp=sharing",
+    gitlink: "https://github.com/abhishek-0713/Course-Monitoring-System",
   },
 
   {
