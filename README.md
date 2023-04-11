@@ -9,3 +9,6 @@
 
 ##
 <p> About Me </p>
+
+![image](https://user-images.githubusercontent.com/105943862/231216051-f3844f84-0938-4955-92fe-fb519410a72a.png)
+
